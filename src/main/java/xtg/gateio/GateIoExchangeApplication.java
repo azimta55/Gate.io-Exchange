@@ -22,7 +22,7 @@ public class GateIoExchangeApplication {
         try {
             ApiClient defaultClient = Configuration.getDefaultApiClient();
             defaultClient.setBasePath("https://api.gateio.ws/api/v4");
-            defaultClient.setApiKeySecret("c5d7fccd82a055da38a33f96e9ee38a9", "4a32e6a5518117832b7ebda60d3ba719eb4f56667d2ad52b3756033ac9aec6f2");
+            defaultClient.setApiKeySecret("KEY", "SECRET");
 
             AccountApi apiInstance = new AccountApi(defaultClient);
             AccountDetail result = apiInstance.getAccountDetail();
